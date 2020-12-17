@@ -1,0 +1,79 @@
+- file: docs/landing_page
+
+- part: Geral
+  chapters:
+  - file: docs/0_contexto
+
+- part: Sanity Check
+  chapters:
+  - file: docs/sanity_check/geral
+  - file: docs/sanity_check/missing_values
+  - file: docs/sanity_check/outliers
+
+- part: EDA
+  chapters:
+  - file: docs/eda/general_plots
+  - file: docs/eda/numeric_variables
+    sections:
+      - file: docs/eda/numeric_vars/Area sown (ha)
+      - file: docs/eda/numeric_vars/Seed rate (kg por ha)
+      - file: docs/eda/numeric_vars/Malt barely yield (kg por ha)
+      - file: docs/eda/numeric_vars/Protein pre-harvest (%)
+      - file: docs/eda/numeric_vars/Protein post-harvest (%)
+      - file: docs/eda/numeric_vars/Fertilizer pre-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/N pre-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/P pre-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/K pre-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/S pre-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/Zn pre-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/Fertilizaer at-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/N at-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/P at-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/K at-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/S at-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/Zn at-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/Fertilizer after-sowing(kg por ha)
+      - file: docs/eda/numeric_vars/N after-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/P after-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/K after-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/S after-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/Zn after-sowing (kg por ha)
+      - file: docs/eda/numeric_vars/Fertilizer total (kg por ha)
+      - file: docs/eda/numeric_vars/N total (kg por ha)
+      - file: docs/eda/numeric_vars/P total (kg por ha)
+      - file: docs/eda/numeric_vars/K total (kg por ha)
+      - file: docs/eda/numeric_vars/S total (kg por ha)
+      - file: docs/eda/numeric_vars/Zn total (kg por ha)
+      - file: docs/eda/numeric_vars/Herbicide total (kg por ha)
+      - file: docs/eda/numeric_vars/Herbicide applications (#)
+      - file: docs/eda/numeric_vars/Fungicide total (kg por ha)
+      - file: docs/eda/numeric_vars/Fungicide applications (#)
+      - file: docs/eda/numeric_vars/Insecticide total (kg por ha)
+      - file: docs/eda/numeric_vars/Insecticide applications (#)
+      - file: docs/eda/numeric_vars/Growth regulator total (kg por ha)
+  - file: docs/eda/category_variables
+    sections:
+      - file: docs/eda/category_vars/Country
+      - file: docs/eda/category_vars/Region
+      - file: docs/eda/category_vars/Status
+      - file: docs/eda/category_vars/Variety
+      - file: docs/eda/category_vars/Seed treated
+      - file: docs/eda/category_vars/Crop sown last SS
+      - file: docs/eda/category_vars/Crop sown last FW
+      - file: docs/eda/category_vars/Tillage method last SS
+      - file: docs/eda/category_vars/Tillage method last FW
+      - file: docs/eda/category_vars/Crop stage max fert applied
+      - file: docs/eda/category_vars/Crop stage max fert applied after sowing
+      - file: docs/eda/category_vars/Crop stage max herbicide applied
+      - file: docs/eda/category_vars/Crop stage max fungicide applied
+      - file: docs/eda/category_vars/Crop stage max insecticide applied
+      - file: docs/eda/category_vars/Crop stage max growth regulators applied
+  - file: docs/eda/text_variables
+    sections:
+      - file: docs/eda/text_vars/Grower
+      - file: docs/eda/text_vars/Grower field
+  - file: docs/eda/date_variables
+    sections:
+      - file: docs/eda/date_vars/Sowing date
+      - file: docs/eda/date_vars/Harvest date
+  - file: docs/eda/consideracoes_finais
